@@ -1,0 +1,165 @@
+ORM Concepts:
+- Used for saving data to database without any queries
+- Java 		   ORM
+  Class  -->  Table Schema
+  Objects ->  Rows
+- 3 steps to build hibernate application:
+	1. Add the configuration(xml) file
+	2. Define the entity class
+	3. Define the main or application class to perform DB operations
+	
+Spring 5:
+- Component/Bean based programming
+- Dependecy Injection : Giving the control of object creation to Spring so that dynamicity is achieved.
+- Autowiring : When an already dependency injected class/[NOT interface] has objects from another class then we
+		don't instantiate it using new keyword rather we annotate the another class with @Component and it's object
+		in the present class as @Autowired so that the object creation control is given to Spring.
+	- autowiring setters and construtors are different cases. U have to autowire the setter and not the object
+	  in order to reflect the new changes but incase of constructor u don't need to autowire the constructor 
+	  rather u have to autowire object.
+	  L-373 : Autowire Scenerios
+	- @Qualifier("Component_name") -> u can specify which specific compnonent u want to autowire to in the
+	"Compnent_name" to reduce ambiguity between several component. This is used for java files which are not the
+	main or app.java. In main file we used context to distinguish between components.
+- Bean: Java Object created by Spring
+	- @Bean : Now u can remove the component annotation from different classes and use the @Bean annotaion for
+		all of them in a single file i.e AppConfig.java
+	- Constructor Injection : If two classes implementing the same interface are very similar, then u can combine 
+	 them into one and use parameterized constructor to differentiate them 
+- Server multiple context issue : https://stackoverflow.com/questions/7239613/multiple-contexts-with-the-same-path-error-running-web-service-in-eclipse-using
+- Converting Dynamic Web Project to Maven : L384
+- When creating maven project:
+	1. group id -> package name
+	2. artifact name -> project name
+
+Spring MVC:
+- In src/mainController.java
+	@RequestMapping("displayname") //default method is get so we don't need to specify method and when there is 
+	//only one parameter, it defaults to value
+	//displayname is same as the name given in action param of form tag
+- @RequestMapping() -> Responsible for handling URLs get and post request
+- @RequestParam() -> Acts like bodyparser in node.js. Relieve us from using the legacy HttpServletRequest request.getParameter()
+  					 method.
+  	- U have to use model.addAttribute() now instead of request.setAtrribute()
+  	- U also have to use ${} instead of <%= %> in ur view file now
+- ModelAndView can be used instead of model and is the better approach although both do the same job.
+- @GetMapping() -> Handles Get request Specifically
+- used jstl core tag <c:> </c:> for implementing foreach loop in jsp view file -> L-387
+		-u have to specify required taglib tag for using the core tag at top:
+			<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+
+SPRING FORM ELEMENTS:
+**********************
+- spring-form JSP Tag Library : https://docs.spring.io/spring/docs/4.2.x/spring-framework-reference/html/spring-form-tld.html
+- SPRING FORM TAGLIB: <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+- ModelAndView : Can be use for both model and views.
+				- U can add a class object here to pass it to your view path and later again pass it to different
+					route view but now with some data in it.
+				- i.e u can use ModelAndView to pass object or model to different views.
+- How form works:
+	-By path : u specify the class fields in these paths attr of forms so that they can be fields are given values
+				when u submit the form. These are done automatically by spring. U have to specify getter and setter
+				for this to work in ur model class
+	- U can also use a Map<> to represent the classfields of model so u don't have to manually specify multiple
+		classfields for multiple paths as in Project : Spring Form Radio Buttons
+	- in case of Map, the value is displayed to the user while key is assigned to the classfield.
+	
+- Adding External Resource to Eclipse like Spring IDE:
+	- now u can display without creating route for it and also access local files using the spring mvc plugin or
+	 namespace:
+		- Project : Spring Add External Resource
+		- L-398
+	- ${pageContext.request.contextPath} -> for getting the current context path for accessing local files
+			- equivalent to __dirname.path in node
+
+- Form Validation Using Hibernate:
+	- Add hibernate validator to your maven
+	- Add the condition to your model class
+	- Add @valid and BindingResult parameter to your @PostMapping Function
+	- Project : Spring Form Validation using Hibernate L-402
+
+- How to let the user refill a form if the hibernate validatpr condition are not met:
+	- Simply create a ModelAndView object and return if BindingResult has error
+	- Project : Spring Form Repopulate; L-403
+
+- Alternative to ModelAndView : 
+	- U can also use ModelMap to pass values to views L-404
+
+- Making the controller more simpler:
+	- By shifting the map objects from the controller directly to the view files.
+	- U should do this if u r dealing with STATIC values
+	- STATIC CONTENT GOES TO VIEW FILE
+	- DYNAMIC CONTENT WHICH REQUIRES LOGIC AND DATA FROM DATBASE SHOULD BE DECLARED IN CONTROLLER AND THEN 
+		PASSED TO THE VIEW.
+	- L-404
+	
+- How to add error message:
+	1. Add @ModelAttribute("objectName") to ur ModelAndView object returning Post class
+	2. Add <form:errors path="name" /> to ur form
+	3. U can add a custom error message in the validator annotation parameter in ur model class
+
+- Other validators : https://javaee.github.io/javaee-spec/javadocs/javax/validation/constraints/package-summary.html
+	- most used - @Email for a correct email address; L-406
+	
+- Spring Database Concept:
+	- Web Browser --> |Security Layer - Controller - Service Layer - DAO(Data Access Object)| --> Database
+		
+
+
+RESTful Api(JAX-RS):
+**********************
+- REST -> Representational State Transfer
+- Resource based URIs
+- HTTP Status Codes:
+	1xx -> Informational
+	2xx -> Successful
+	3xx -> Redirection
+	4xx -> Client Error
+	5xx -> Server Error
+- HTTP		CRUD
+  GET  -->	READ (Read)     Safe/Repeatable (Idempotent)
+  DELETE -> DELETE (Write)	Safe/Repeatable (Idempotent)
+  PUT  -->  UPDATE (Write)	Safe/Repeatable (Idempotent)
+  POST -->  CREATE (Write)  NON REPEATABLE (Non-Idempotent)
+
+- HATEOAS -> Hypermedia as the Engine of Application State 
+	- Hypermedia(links to other media) derives the application.
+- Richardson Maturity Model -> categorisation of restful APIs.
+	- L-442
+	- Level 0: Not a RESTful API
+	- Level 1: Multiple URI and Single verb (POST) (Partially RESTful)
+	- Level 2: Multiple URIs and Multiple Verbs (HTTP Methods) (Partially RESTful)
+	- Level 3: URIs, HTTP and HATEOAS (Fully RESTful) 
+- RESTful API are agreement between client and server
+
+- PATH Params can be specified in a URI by 
+	..something/{path_param}
+	public String func(@PathParam(path_param) String x){
+		return x; //x == path_param
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
