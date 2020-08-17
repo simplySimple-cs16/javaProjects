@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+/Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2322740034.index
+/restapp/src/main/java
+/Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3062506593.index
+/JerseyMaven/src/main/resources
+/Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/588560766.index
+/RestAppStart/src/main/java
+/Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4193246920.index
+/Rest Path Params/src/main/java
