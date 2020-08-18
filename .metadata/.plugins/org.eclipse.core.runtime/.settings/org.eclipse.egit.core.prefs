@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=/Users/kadumperme/javaProjects/.git\:
-GitRepositoriesView.GitDirectories.relative=/Users/kadumperme/javaProjects/.git\:
+GitRepositoriesView.GitDirectories=/Users/kadumperme/javaProjects/.git\:/Users/kadumperme/javaWeb/.git\:
+GitRepositoriesView.GitDirectories.relative=/Users/kadumperme/javaProjects/.git\:.git\:
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

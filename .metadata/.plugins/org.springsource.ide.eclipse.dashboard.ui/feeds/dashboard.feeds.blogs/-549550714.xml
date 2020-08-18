@@ -5,7 +5,21 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2020-08-14T19:07:45Z</updated>
+  <updated>2020-08-17T15:36:07Z</updated>
+  <entry>
+    <title>Spring Initializr 0.9.1 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/08/17/spring-initializr-0-9-1-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Stéphane Nicoll</name>
+    </author>
+    <id>tag:spring.io,2020-08-17:4173</id>
+    <updated>2020-08-17T15:36:07Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Initializr 0.9.1 has been released and is now available from repo.spring.io and Maven Central.&lt;/p&gt;
+&lt;p&gt;This release includes &lt;a href="https://github.com/spring-io/initializr/releases/tag/v0.9.1"&gt;2 fixes&lt;/a&gt;. Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/spring-io/initializr"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-io/initializr/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/initializr/docs/0.9.1/reference/html"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-initializr"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-io/initializr"&gt;Gitter&lt;/a&gt;&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Creating Efficient Docker Images with Spring Boot 2.3</title>
     <link rel="alternate" href="https://spring.io/blog/2020/08/14/creating-efficient-docker-images-with-spring-boot-2-3" />
@@ -1750,34 +1764,6 @@ dependencies {&#xD;
   //...&#xD;
 }
 &lt;/code&gt;&lt;/pre&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Cloud Data Flow 2.6.0 Released</title>
-    <link rel="alternate" href="https://spring.io/blog/2020/08/04/spring-cloud-data-flow-2-6-0-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Janne Valkealahti</name>
-    </author>
-    <id>tag:spring.io,2020-08-04:4150</id>
-    <updated>2020-08-04T13:48:00Z</updated>
-    <content type="html">&lt;p&gt;Spring Cloud Data Flow team is pleased to announce the release of 2.6.0.&lt;/p&gt;
-&lt;p&gt;This 2.6.0 adds usual bug fixes and the following key highlights:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-  &lt;p&gt;&lt;strong&gt;Wavefront&lt;/strong&gt;&lt;br/&gt; New integration to monitor streams and tasks using &lt;em&gt;Wavefront&lt;/em&gt;. More&lt;br/&gt; about this feature can be found from &lt;a href="https://dataflow.spring.io/docs/feature-guides/streams/monitoring/"&gt;Stream Monitoring&lt;/a&gt; and &lt;a href="https://dataflow.spring.io/docs/feature-guides/batch/monitoring/"&gt;Task Monitoring&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-  &lt;li&gt;
-  &lt;p&gt;&lt;strong&gt;Platform Support for Scheduling&lt;/strong&gt;&lt;br/&gt; Tasks scheduling now have a platform support. See &lt;a href="https://dataflow.spring.io/docs/recipes/multi-platform-deployment/multi-platform-task/#scheduling-tasks"&gt;Scheduling Tasks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-  &lt;li&gt;
-  &lt;p&gt;&lt;strong&gt;Java CFEnv&lt;/strong&gt;&lt;br/&gt; We&amp;rsquo;re now on a new version of &lt;a href="https://github.com/pivotal-cf/java-cfenv"&gt;Java CFEnv&lt;/a&gt; which greatly improves user experience when there is a need to bind to user created services.&lt;/p&gt;&lt;/li&gt;
-  &lt;li&gt;
-  &lt;p&gt;&lt;strong&gt;Bitnami&lt;/strong&gt;&lt;br/&gt; We&amp;rsquo;ve moved from a &lt;a href="https://hub.helm.sh/charts/bitnami/spring-cloud-dataflow"&gt;Helm Hub&lt;/a&gt; to &lt;a href="https://bitnami.com/stack/spring-cloud-dataflow/helm"&gt;Bitnami&lt;/a&gt; as a helm chart storage.&lt;/p&gt;&lt;/li&gt;
-  &lt;li&gt;
-  &lt;p&gt;&lt;strong&gt;Composed Task Runner as SCDF native module&lt;/strong&gt;&lt;br/&gt; Composed Task Runner is now an integral part of SCDF itself and gets registered implicitly while the users who have the custom composed task runner can still override the native one. This enables us to integrate the composed tasks management within the context of Spring Cloud Data Flow.&lt;/p&gt;&lt;/li&gt;
-  &lt;li&gt;
-  &lt;p&gt;&lt;strong&gt;Stream Applications&lt;/strong&gt;&lt;br/&gt; This is also a good reminder what&amp;rsquo;s happening on our application space by following blog series &lt;a href="https://spring.io/blog/2020/07/27/creating-a-supplier-function-and-generating-spring-cloud-stream-source"&gt;Creating a Supplier Function and generating Spring Cloud Stream Source&lt;br/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h2&gt;&lt;a href="#stay-in-touch-hellip" class="anchor" name="stay-in-touch-hellip"&gt;&lt;/a&gt;Stay in touch&amp;hellip;&lt;/h2&gt;
-&lt;p&gt;As always, we welcome feedback and contributions, so please reach out to us on &lt;a href="https://stackoverflow.com/questions/tagged/spring-cloud-dataflow"&gt;Stack Overflow&lt;/a&gt; or &lt;a href="https://github.com/spring-cloud/spring-cloud-dataflow/issues"&gt;GitHub&lt;/a&gt; or via &lt;a href="https://gitter.im/spring-cloud/spring-cloud-dataflow"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

@@ -23,7 +23,7 @@
         
         
         <property name="java-output-path" value="/restapp/target/classes"/>
-        <property name="context-root" value="restPathParams"/>
+        <property name="context-root" value="restHibernate"/>
                             
     
     
