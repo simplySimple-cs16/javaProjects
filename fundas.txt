@@ -137,11 +137,25 @@ RESTful Api(JAX-RS):
 	public String func(@PathParam(path_param) String x){
 		return x; //x == path_param
 	}
+	
+- A REST API
+	1. Produces : return some response like GET
+	2. Consumes : u must provide data in XML or Json format to perform operation in the server like POST and PUT
 
 - For REST API to return XML response:
 	1. Annotate the entity or the db schema class as @XmlRootElement
 	2. In the controller or resource class, annotate every xml response returning methods as 
 		@Produces(MediaType.APPLICATION_XML) or @Consumes(MediaType.APPLICATION_XML)
+
+- For REST API to return JSON response:
+	1. In pom.xml file uncomment:
+		<dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-json-binding</artifactId>
+        </dependency>
+	2. No need to Annotate the entity or the db schema class.
+	3. In the controller or resource class, annotate every Json response returning or consuming methods as 
+		@Produces(MediaType.APPLICATION_JSON) or @Consumes(MediaType.APPLICATION_JSON)
 
 
 
