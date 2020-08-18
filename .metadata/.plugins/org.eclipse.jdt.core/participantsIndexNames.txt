@@ -7,12 +7,16 @@ INDEX VERSION 1.131
 /Rest Hibernate JSON Response/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3062506593.index
 /JerseyMaven/src/main/resources
+/Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3036740640.index
+/S04L07 - Flitering and pagination/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4193246920.index
 /Rest Path Params/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2474095473.index
 /Rest hibernate DAO/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4185892569.index
 /Rest Hibernate XML/src/main/java
+/Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/852173539.index
+/Rest Subresource ManyToOne Reference/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2959782818.index
 /Rest Hibernate/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2322740034.index
