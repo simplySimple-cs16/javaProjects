@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Rest Path Params" path="/restPathParams" reloadable="true" source="org.eclipse.jst.jee.server:Rest Path Params"/><Context docBase="Rest Hibernate XML" path="/restXMLResponse" reloadable="true" source="org.eclipse.jst.jee.server:Rest Hibernate XML"/></Host>
+      <Context docBase="Rest Path Params" path="/restHibernate" reloadable="true" source="org.eclipse.jst.jee.server:Rest Path Params"/><Context docBase="Rest Hibernate XML" path="/restXMLResponse" reloadable="true" source="org.eclipse.jst.jee.server:Rest Hibernate XML"/><Context docBase="Rest Hibernate JSON Response" path="/restJsonResponse" reloadable="true" source="org.eclipse.jst.jee.server:Rest Hibernate JSON Response"/></Host>
     </Engine>
   </Service>
 </Server>

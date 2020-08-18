@@ -37,6 +37,7 @@ public class Brands {
 
 	@PUT
 	@Path("/brands/{brandId}")
+	@Consumes(MediaType.APPLICATION_XML)
 	public void putBrands(@PathParam("brandId") int brandId, BrandEntity updatedBrand) {
 		updatedBrand.setBrandId(brandId);
 		service.updateBrand(updatedBrand);
