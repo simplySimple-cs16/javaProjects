@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Rest Hibernate JSON Response" path="/restJsonResponse" reloadable="true" source="org.eclipse.jst.jee.server:Rest Hibernate JSON Response"/><Context docBase="Rest Subresource ManyToOne Reference" path="/restSubresource" reloadable="true" source="org.eclipse.jst.jee.server:Rest Subresource ManyToOne Reference"/></Host>
+      <Context docBase="Rest Hibernate JSON Response" path="/restJsonResponse" reloadable="true" source="org.eclipse.jst.jee.server:Rest Hibernate JSON Response"/><Context docBase="Rest Delegation Call to SubResource from MainResource" path="/restSubresourceDelegationCall" reloadable="true" source="org.eclipse.jst.jee.server:Rest Delegation Call to SubResource from MainResource"/><Context docBase="Rest Filter &amp; Pagination" path="/restFilterPagination" reloadable="true" source="org.eclipse.jst.jee.server:Rest Filter &amp; Pagination"/><Context docBase="Rest Status Code" path="/restStatusCode" reloadable="true" source="org.eclipse.jst.jee.server:Rest Status Code"/></Host>
     </Engine>
   </Service>
 </Server>

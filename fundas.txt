@@ -156,6 +156,15 @@ RESTful Api(JAX-RS):
 	2. No need to Annotate the entity or the db schema class.
 	3. In the controller or resource class, annotate every Json response returning or consuming methods as 
 		@Produces(MediaType.APPLICATION_JSON) or @Consumes(MediaType.APPLICATION_JSON)
+		
+- For Rest API to handle filters ie /.../..?name=car
+	1. Add @QueryParam() to ur resource method and change service and dao layer accordingly
+	
+- Reading header and cookie values using @HeaderParam & @CookieParam:
+	L- 469
+
+- Both header and cookie values as well MANY OTHER IMPORTANT VALUE like the uri path etc. can be retrieved
+	using the @Context annotation : L-470  
 
 
 
