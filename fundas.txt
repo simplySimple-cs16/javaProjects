@@ -138,10 +138,17 @@ RESTful Api(JAX-RS):
 		return x; //x == path_param
 	}
 
+- For REST API to return XML response:
+	1. Annotate the entity or the db schema class as @XmlRootElement
+	2. In the controller or resource class, annotate every xml response returning methods as 
+		@Produces(MediaType.APPLICATION_XML) or @Consumes(MediaType.APPLICATION_XML)
 
 
 
 
+Explored JAVA core, Spring 5 and Hibernate
+
+To learn REST API(JAX-RS),  Spring Boot and Micro-services with Spring Boot
 
 
 
