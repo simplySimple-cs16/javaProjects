@@ -13,10 +13,10 @@ public class Brand {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="brandId")
-	int brandId;
+	private int brandId;
 	
 	@Column(name="brandName")
-	String brandName;
+	private String brandName;
 	
 	public Brand() {
 		

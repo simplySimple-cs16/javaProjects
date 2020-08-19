@@ -181,6 +181,17 @@ RESTful Api(JAX-RS):
 - The generic exception mapper can be called by any exception. U can also build specific and custom 
 	exception mapper but it can be called only by the specific Exception.
 
+- How to explicitly tell hibernate that a class field is not a database column:
+	@Transient
+
+- To build a url for another class resource from a current class resource u can use .path() for class and method
+	level paths:
+		uri.getBaseUriBuilder()
+				.path(ProductsResource.class) //to get the class level path
+				.path(ProductsResource.class, "getProductsByBrand") //to get the method level path
+				.resolveTemplate("brandId", brandId) //to resolve a dynamic or variable path value
+				.toString();
+
 
 
 Explored JAVA core, Spring 5 and Hibernate

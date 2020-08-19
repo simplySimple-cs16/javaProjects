@@ -15,6 +15,8 @@ INDEX VERSION 1.131
 /Rest Custom Exception Mapper/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2959782818.index
 /Rest Hibernate/src/main/java
+/Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3491400311.index
+/Rest Hateoas 1/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2090834315.index
 /Rest Hibernate JSON Response/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/873449640.index
@@ -23,10 +25,14 @@ INDEX VERSION 1.131
 /Rest Adding URL to location Header/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/301202100.index
 /Rest Location Header/src/main/java
+/Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/69606064.index
+/Rest Hateoas 3/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3924590028.index
 /Rest Status Code/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3062506593.index
 /JerseyMaven/src/main/resources
+/Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2206257651.index
+/Rest Hateoas 2/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3036740640.index
 /S04L07 - Flitering and pagination/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4185892569.index
