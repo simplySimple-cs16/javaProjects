@@ -165,7 +165,21 @@ RESTful Api(JAX-RS):
 
 - Both header and cookie values as well MANY OTHER IMPORTANT VALUE like the uri path etc. can be retrieved
 	using the @Context annotation : L-470  
+	
+- For setting the auto-increment Id of an entry properly annotate the id field in the entity class with:
+ 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 
+- How to add the location i.e the uri path to the header of an API response:
+  L-472, Project: Rest Location Header
+  
+- To return multiple type of mediatype responses:
+	@Produces(MediaType.TEXT_PLAIN, MediaType.APPLICATION_JSON)
+
+- To map a Generic Exception Class method to any other class use the annotation :
+	@Provider
+
+- The generic exception mapper can be called by any exception. U can also build specific and custom 
+	exception mapper but it can be called only by the specific Exception.
 
 
 
@@ -173,9 +187,10 @@ Explored JAVA core, Spring 5 and Hibernate
 
 To learn REST API(JAX-RS),  Spring Boot and Micro-services with Spring Boot
 
+Did projects on : REST API responses in both XML and Json, querying for data from tables which have many to one relation, apply filter on search results using @QueryParam, reading header and cookie values and Sending custom Status Code results
 
 
-
+To implement HATEOAS model, exception handling, param converters and finally build REST API client
 
 
 
