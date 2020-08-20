@@ -192,16 +192,22 @@ RESTful Api(JAX-RS):
 				.resolveTemplate("brandId", brandId) //to resolve a dynamic or variable path value
 				.toString();
 
+- Jersey Moxy Maven : Helps to convert object to Json
+
+- Alternate to web.xml configuration -> annotaion based java config file : L-484
+
+- MessageBodyWriter is for making the server understand our code which may have different codebase.
+
+- To make an object last longer in the memory i.e not creating new object everytime for get requests, use the
+	annotation:
+	@Singleton
+
+- When u use @Singleton, then class level variables and annotations values should be initialised beforehand,
+	but method level annotation values need not be initialised as they are just placeholder 
+  SO if u want to use class level annotation variables in ur methods don't use @Singleton annotation.
 
 
-Explored JAVA core, Spring 5 and Hibernate
 
-To learn REST API(JAX-RS),  Spring Boot and Micro-services with Spring Boot
-
-Did projects on : REST API responses in both XML and Json, querying for data from tables which have many to one relation, apply filter on search results using @QueryParam, reading header and cookie values and Sending custom Status Code results
-
-
-To implement HATEOAS model, exception handling, param converters and finally build REST API client
 
 
 
