@@ -33,6 +33,8 @@ INDEX VERSION 1.131
 /S06L04 - Make post request/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3626994703.index
 /S05L02 - Alternate application setup/src/main/java
+/Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3066535936.index
+/Client URL Building/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3036740640.index
 /S04L07 - Flitering and pagination/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/768567870.index
@@ -85,6 +87,8 @@ INDEX VERSION 1.131
 /Rest Delegation Call to SubResource from MainResource/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2721383596.index
 /Rest Custom Exception Mapper/src/main/java
+/Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1229073858.index
+/Building Client String Response/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2599229043.index
 /S05L05 - Resource types/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/682086857.index
