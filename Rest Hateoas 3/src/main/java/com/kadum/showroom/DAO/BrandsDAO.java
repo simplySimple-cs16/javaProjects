@@ -16,6 +16,7 @@ public class BrandsDAO {
 	public List<Brand> getBrands() {
 		Session session = factory.getCurrentSession();
 		session.beginTransaction();
+		@SuppressWarnings("unchecked")
 		List<Brand> list = session.createQuery("from brands").getResultList();
 		return list;
 	}

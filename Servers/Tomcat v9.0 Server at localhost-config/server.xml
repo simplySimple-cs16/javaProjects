@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Rest Hateoas 1" path="/restHateoas1" reloadable="true" source="org.eclipse.jst.jee.server:Rest Hateoas 1"/><Context docBase="Rest Hateoas 2" path="/restHateoas2" reloadable="true" source="org.eclipse.jst.jee.server:Rest Hateoas 2"/><Context docBase="Rest Hateoas 3" path="/restHateoas3" reloadable="true" source="org.eclipse.jst.jee.server:Rest Hateoas 3"/></Host>
+      <Context docBase="Annotation Based Application Setup" path="/applicationBased" reloadable="true" source="org.eclipse.jst.j2ee.server:Annotation Based Application Setup"/><Context docBase="Singleton Resource Type" path="/singleton" reloadable="true" source="org.eclipse.jst.j2ee.server:Singleton Resource Type"/></Host>
     </Engine>
   </Service>
 </Server>

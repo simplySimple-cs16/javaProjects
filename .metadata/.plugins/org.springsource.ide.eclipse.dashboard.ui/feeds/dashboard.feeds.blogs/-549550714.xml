@@ -5,7 +5,51 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2020-08-17T20:34:36Z</updated>
+  <updated>2020-08-19T00:48:46Z</updated>
+  <entry>
+    <title>This Week in Spring - August 18th, 2020</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/08/19/this-week-in-spring-august-18th-2020" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2020-08-19:4174</id>
+    <updated>2020-08-19T00:48:46Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! Well, here we are! Nearing the end of August 2020! I can&amp;rsquo;t believe it! September follows August (last I checked) and with September comes SpringOne 2020! I am &lt;em&gt;so&lt;/em&gt; excited about this mega (and virtual) event and I hope you&amp;rsquo;ll consider joining us there! &lt;/p&gt;
+&lt;p&gt;On a personal note, today&amp;rsquo;s moving day for my family and me, so I have to get back to that. But we do have a &lt;em&gt;ton&lt;/em&gt; to get to so let&amp;rsquo;s dive into it.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/14/a-bootiful-podcast-rsocket-everywhere-and-maciej-walkowiak-on-spring-cloud-aws"&gt;A Bootiful Podcast: RSocket everywhere and Maciej Walkowiak on Spring Cloud AWS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blogs.vmware.com/opensource/2020/08/13/a-bootiful-podcast-software-security-in-the-supply-chain/"&gt;A Bootiful Podcast: Software Security in the Supply Chain&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/springcloud/status/1295465794554429440"&gt;A new video in the Spring Cloud AWS series, this one looking at how to scale out databases with RDS and Spring Cloud AWS.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/17/case-study-http-request-function-and-processor"&gt;Case Study: HTTP Request Function and Processor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/SpringData/status/1293476064094814208"&gt;CockroachDB &amp;amp; Spring Tutorials for Spring Data JDBC, JPA, &amp;amp; MyBatis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/14/config-file-processing-in-spring-boot-2-4"&gt;Config file processing in Spring Boot 2.4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/14/creating-efficient-docker-images-with-spring-boot-2-3"&gt;Creating Efficient Docker Images with Spring Boot 2.3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=Ts2a-YdN6vI"&gt;Getting started with Spring Cloud AWS - YouTube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://reflectoring.io/spring-bean-lifecycle/"&gt;Hooking Into the Spring Bean Lifecycle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/cloudfoundry/status/1295762491503292417"&gt;How &lt;code&gt;cf-for-k8s&lt;/code&gt; Reinvents Cloud Foundry as a Native Kubernetes App Platform&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://inside.java/2020/08/07/loom-performance/"&gt;Interesting post on the performance of user-mode threads and coroutines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring-gcp.saturnism.me/"&gt;Introduction - Spring Boot on GCP&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://m.facebook.com/355408241562041/videos/708422819736807"&gt;Microsoft&amp;rsquo;s Rory Preddy on Integrating “Reactive” APIs to traditional relational databases&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://inside.java/2020/08/18/foreign-api-jep/"&gt;New candidate JEP: 389: Foreign Linker API (Incubator)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/13/premiering-the-rsocket-revolution"&gt;Premiering: The RSocket Revolution&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/13/spring-batch-4-3-0-m2-is-out"&gt;Spring Batch 4.3.0-M2 is out!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/13/spring-boot-2-3-3-available-now"&gt;Spring Boot 2.3.3 available now&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/14/spring-boot-2-4-0-m2-is-now-available"&gt;Spring Boot 2.4.0-M2 is now available&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/12/spring-data-2020-0-0-m2-released"&gt;Spring Data 2020.0.0-M2 released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/12/spring-data-neumann-sr3-released"&gt;Spring Data Neumann SR3 released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/17/spring-initializr-0-9-1-available-now"&gt;Spring Initializr 0.9.1 available now&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/12/spring-integration-5-4-m2-available"&gt;Spring Integration 5.4 M2 Available&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/12/spring-security-5-3-4-5-2-6-5-1-12-5-0-18-4-2-18-released"&gt;Spring Security 5.3.4, 5.2.6, 5.1.12, 5.0.18, 4.2.18 Released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/14/spring-security-5-4-0-rc1-released"&gt;Spring Security 5.4.0-RC1 Released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/springcloud/status/1294325229913812993"&gt;The recent improvements to the way that Spring Boot loads configuration portend some nice changes for users of the Spring Cloud Config Server&amp;hellip;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blogs.vmware.com/opensource/2020/08/18/vmware-open-source-security-foundation/"&gt;VMware Hits the Ground Running with the Launch of Open Source Security Foundation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/springcloud/status/1294389986016591881"&gt;Want to contribute to Spring Cloud Contract and move the code from Groovy to Java? We&amp;rsquo;d love your help&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/springcentral/status/1295765410655207428"&gt;What is Spring? A nice 4 minute explainer by Mark Heckler&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://inside.java/2020/08/12/skara-repos-transitions/"&gt;jdk/jdk repository transitions to Git, GitHub and Skara: September 5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Case Study: HTTP Request Function and Processor</title>
     <link rel="alternate" href="https://spring.io/blog/2020/08/17/case-study-http-request-function-and-processor" />
@@ -1792,43 +1836,6 @@ The local Data Flow installation is fine for local development and exploration, 
     <updated>2020-08-07T02:52:12Z</updated>
     <content type="html">&lt;p&gt;Hi, Spring fans! In this installment &lt;a href="http://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks about ten years on the Spring team, reactive support, and RSocket support in Spring Integration, his upcoming appearances at SpringOne and his &lt;a href="https://www.eventbrite.com.au/e/yow-workshop-2020-cloud-native-java-aug-14-18-2020-tickets-114222161560?aff=social"&gt;upcoming YOW! workshop on &lt;em&gt;Cloud Native Java&lt;/em&gt;&lt;/a&gt;, and then talks to JFrog&amp;rsquo;s &lt;a href="http://twitter.com/jbaruch"&gt;Baruch Sadogursky (@jbaruch)&lt;/a&gt; about continuous delivery, DevOps, Java artifact management Artifactory, and more.&lt;/p&gt;
 &lt;iframe title="10 Years on the Spring team and JFrog's Baruch Sag" height="122" width="100%" style="border: none;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/4me2u-e5f7b3?from=pb6admin&amp;amp;download=1&amp;amp;version=1&amp;amp;auto=0&amp;amp;share=1&amp;amp;download=1&amp;amp;rtl=0&amp;amp;fonts=Helvetica&amp;amp;skin=1&amp;amp;pfauth=&amp;amp;btn-skin=107"&gt;&lt;/iframe&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - August 4th, 2020</title>
-    <link rel="alternate" href="https://spring.io/blog/2020/08/05/this-week-in-spring-august-4th-2020" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2020-08-05:4152</id>
-    <updated>2020-08-05T04:22:23Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! &lt;/p&gt;
-&lt;p&gt;How&amp;rsquo;re you all doing? Me? I&amp;rsquo;m doing swell! I was so happy to celebrate my tenth anniversary on the Spring team on the 2nd of August, 2020. It has been an amazing run so far and I am so excited about the continued adventure! A huge part of the reason I love this job is because of you, dear community. &lt;em&gt;Thank you&lt;/em&gt;. You can learn more about &lt;a href="http://joshlong.com/jl/blogPost/10-years-on-the-spring-team.html"&gt;the story so far in this blog&lt;/a&gt;.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/07/30/a-bootiful-podcast-josh-lock-on-supply-chain-security-docker-trust-tuf-and-more"&gt;A Bootiful Podcast: Josh Lock on supply chain security, Docker trust, TUF, and more&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Confluent put on yet &lt;a href="https://www.youtube.com/watch?v=3YFlT_yIDxk&amp;feature=youtu.be"&gt;another great stream on Spring Boot and Apache Kafka&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;I am doing a two-day, online, &lt;em&gt;Cloud Native Java&lt;/em&gt; workshop for the legendary YOW! conference. &lt;a href="https://www.eventbrite.com.au/e/yow-workshop-2020-cloud-native-java-aug-14-18-2020-tickets-114222161560?aff=social"&gt;Please register now!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/mesirii/status/1290698839020707840?s=20"&gt;Check out Michael Hunger&amp;rsquo;s Twitch stream tomorrow wherein he&amp;rsquo;ll explore the brand-new Spring Data Neo4J 6 (including the reactive support) on Wednesday, 11am CEST, 7pm AEST, 2:30 IST, 9am GMT.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/RabbitMQ/status/1288626938593128450"&gt;Check out This Month in RabbitMQ, June 2020 Recap&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/odedia/status/1290347015600320515?s=12"&gt;Check out the latest release of the Cloud Native Petclinic. This Petclinic is ready-to-deploy on Cloud Foundry and Kubernetes and demonstrates a fully-featured decomposed microservices-based application.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.youtube.com/watch?feature=youtu.be&amp;v=3iUGQL6Zc7U&amp;app=desktop"&gt;Check out this event &lt;em&gt;Developing Event-Driven Microservices using Spring Cloud Stream&lt;/em&gt; coming tomorrow!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/03/creating-a-function-for-consuming-data-and-generating-spring-cloud-stream-sink-applications"&gt;Creating a function for consuming data and generating Spring Cloud Stream Sink applications&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://blogs.vmware.com/vmworld/2020/08/destination-vmworld-app-modernization-channel.html"&gt;Destination VMworld – App Modernization Channel&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.linkedin.com/posts/tim-pepper-b0017a4_bootiful-podcast-tim-pepper-kubernetes-activity-6694370839107792896-upXP"&gt;Have you listened to this fun episode of a &lt;em&gt;Bootiful Podcast&lt;/em&gt; with Tim Pepper?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/VMwareTanzu/status/1290406847707480064"&gt;I loved this: VMware CEO Pat Gelsinger shares on how VMware Tanzu will shape the future of software development on the newest episode of the &lt;em&gt;Looking Ahead&lt;/em&gt; podcast&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.mscharhag.com/spring/json-schema-validation-handlermethodargumentresolver"&gt;Integrating JSON Schema validation in Spring using a custom HandlerMethodArgumentResolver&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://medium.com/97-things/java-is-a-90s-kid-96ac5cbf7fed"&gt;Java Is a 90s Kid. “There are only two kinds of languages…&amp;quot; by Ben Evans from the &lt;em&gt;97 Things&lt;/em&gt; book about Java. (NB: I also contributed an article to the book!)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/devrelchap/status/1289828288261586944?s=12"&gt;My amazing first manager Adam Fitzgerald in my ten year anniversary on the Spring team&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/04/spring-cloud-data-flow-2-6-0-released"&gt;Spring Cloud Data Flow 2.6.0 Released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/08/04/spring-cloud-hoxton-sr7-has-been-released"&gt;Spring Cloud Hoxton.SR7 has been released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/07/30/spring-hateoas-1-1-1-release-is-out"&gt;Spring HATEOAS 1.1.1.RELEASE is out!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/07/30/spring-tools-4-7-1-released"&gt;Spring Tools 4.7.1 released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/SpringData/status/1290314847121530881"&gt;The Lettuce 6 Redis driver goes RC1. Client-side caching, Push message listeners, and GraalVM Native config files, and more.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://blogs.vmware.com/vmworld/2020/07/vmworld-2020-savings-on-certification-exam-vouchers-prep.html"&gt;VMworld 2020 Savings on Certification Exam Vouchers &amp;amp; Prep&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/springcentral/status/1290464826456760323"&gt;Want training on how to build Spring Boot-based applications? &lt;a href="https://tanzu.vmware.com/training/courses/spring-boot-developer-training"&gt;Check out the Spring Boot: Developer module&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;This post has nothing to do with Spring &lt;em&gt;per-se&lt;/em&gt; but it is well-worth your study if you&amp;rsquo;re using something like Axon to build a CQRS-centric system: &lt;a href="https://medium.com/@hugo.oliveira.rocha/what-they-dont-tell-you-about-event-sourcing-6afc23c69e9a"&gt;&lt;em&gt;What they don’t tell you about event sourcing&lt;/em&gt;, by Hugo Rocha&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

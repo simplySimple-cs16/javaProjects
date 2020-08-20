@@ -18,6 +18,7 @@ public class ProductsDAO {
             .addAnnotatedClass(Brand.class)
             .buildSessionFactory();
 
+	@SuppressWarnings("unchecked")
 	public List<Product> getProductsByBrand(int brandId) {
 		Session session = factory.getCurrentSession();
 		session.beginTransaction();
@@ -27,6 +28,7 @@ public class ProductsDAO {
 		return productList;
 	}
 
+	@SuppressWarnings("unchecked")
 	public List<Product> getProductsByBrandAndCategory(int brandId, String category) {
 		Session session = factory.getCurrentSession();
 		session.beginTransaction();
