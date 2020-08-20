@@ -205,6 +205,12 @@ RESTful Api(JAX-RS):
 - When u use @Singleton, then class level variables and annotations values should be initialised beforehand,
 	but method level annotation values need not be initialised as they are just placeholder 
   SO if u want to use class level annotation variables in ur methods don't use @Singleton annotation.
+  
+- If u want to incorporate the value of query params into class object using its constructor then u have to
+	use paramConverter and paramConverterprovider:
+	L-490,491
+	- U can also implement the logic in ParamConverter directly inside ParamConverterProvider so that u will
+		have only one file for converters.
 
 
 
