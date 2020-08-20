@@ -17,6 +17,8 @@ INDEX VERSION 1.131
 /Rest Filter & Pagination/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1167568698.index
 /Rest Hibernate DAO/src/main/java
+/Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/462540222.index
+/Client HATEOAS Model Response/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/738878035.index
 /NewMavenProject/src/main/resources
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2302685024.index
@@ -69,6 +71,8 @@ INDEX VERSION 1.131
 /Rest WebApplication Exception/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/933525593.index
 /Rest MessageBodyWriter/src/main/java
+/Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2141886747.index
+/Client Response Read/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3272889661.index
 /S06L02 - Client building steps/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/745941506.index
@@ -99,7 +103,11 @@ INDEX VERSION 1.131
 /S05L04 -  Implement MessageBody Writer/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1419259390.index
 /AnnotationBasedApplicationSetup/src/main/resources
+/Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2710314336.index
+/Client Post Request/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2474095473.index
 /Rest hibernate DAO/src/main/java
+/Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3320376466.index
+/Client PUT DELETE/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/301202100.index
 /Rest Location Header/src/main/java
