@@ -222,7 +222,18 @@ RESTful Api(JAX-RS):
 	tomcat-embed-jasper
 		-THE VERSION MUST BE SAME AS YOUR LOCAL EMBEDDED TOMCAT. SO FIRST CHECK IT ON UR MAVEN DEPENDENCIES FOLDER
 - If u want to move ur view files from web-inf to another subfolder of web-inf say views then u should specify the 
-	prefix and suffix values inside ur application.properties which is in src/main/resources
+	prefix and suffix values inside ur application.properties which is in src/main/resources:
+		spring.mvc.view.prefix=/WEB-INF/view/
+		spring.mvc.view.suffix=.jsp
+	-application.proerties is for overriding the springBoot defaults, see which properties u can override:
+		https://docs.spring.io/spring-boot/docs/2.0.4.RELEASE/reference/html/common-application-properties.html
+		
+- HOW TO EXTRACT A WAR FILE FROM A MAVEN PROJECT:
+	1. run as maven clean
+	2. run as maven install
+	3. Refresh ur project
+	4. If no errors, .war file should be in target folder
+		
   
 
 

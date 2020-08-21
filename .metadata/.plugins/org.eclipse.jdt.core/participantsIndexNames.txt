@@ -75,6 +75,8 @@ INDEX VERSION 1.131
 /Rest Exception using Json/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/646242219.index
 /Rest WebApplication Exception/src/main/java
+/Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/204349524.index
+/SpringBoot-WebApp-JSP-support/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/933525593.index
 /Rest MessageBodyWriter/src/main/java
 /Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2141886747.index
