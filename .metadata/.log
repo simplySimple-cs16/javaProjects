@@ -11600,3 +11600,33 @@ java.lang.NullPointerException
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-21 17:30:16.889
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-21 17:30:16.891
+!MESSAGE classpath=22 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-21 17:30:16.892
+!MESSAGE buffering callback sts4.classpath.trHdEcrt SpringBoot-8-UpdatePost false 22
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-21 17:30:16.892
+!MESSAGE executing callback sts4.classpath.trHdEcrt 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-21 17:30:16.896
+!MESSAGE executing callback sts4.classpath.trHdEcrt SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-21 17:30:18.603
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-21 17:30:18.605
+!MESSAGE classpath=82 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-21 17:30:18.606
+!MESSAGE buffering callback sts4.classpath.trHdEcrt SpringBoot-8-UpdatePost false 82
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-21 17:30:18.606
+!MESSAGE executing callback sts4.classpath.trHdEcrt 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-21 17:30:18.609
+!MESSAGE executing callback sts4.classpath.trHdEcrt SUCCESS [done]
