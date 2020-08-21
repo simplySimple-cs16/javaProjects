@@ -211,7 +211,19 @@ RESTful Api(JAX-RS):
 	L-490,491
 	- U can also implement the logic in ParamConverter directly inside ParamConverterProvider so that u will
 		have only one file for converters.
+
+- How to generate web.xml files:
+	1. Right click on ur project folder
+	2. Click Java EE tools
+	3. Click Generate Deployment Descriptor Sub
 	
+- SpringBoot app creates a embedded local tomcat server. So ur application will run on browser even if u stop or delete the server
+- To incorporate jsp support to your springBoot app add the maven dependency:	
+	tomcat-embed-jasper
+		-THE VERSION MUST BE SAME AS YOUR LOCAL EMBEDDED TOMCAT. SO FIRST CHECK IT ON UR MAVEN DEPENDENCIES FOLDER
+- If u want to move ur view files from web-inf to another subfolder of web-inf say views then u should specify the 
+	prefix and suffix values inside ur application.properties which is in src/main/resources
+  
 
 
 
