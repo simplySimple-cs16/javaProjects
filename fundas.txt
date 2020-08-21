@@ -10,7 +10,8 @@ ORM Concepts:
 	
 Spring 5:
 - Component/Bean based programming
-- Dependecy Injection : Giving the control of object creation to Spring so that dynamicity is achieved.
+- Dependecy Injection : Giving the control of object creation to Spring so that dynamicity is achieved. It is done 
+						through auto wiring
 - Autowiring : When an already dependency injected class/[NOT interface] has objects from another class then we
 		don't instantiate it using new keyword rather we annotate the another class with @Component and it's object
 		in the present class as @Autowired so that the object creation control is given to Spring.
@@ -212,6 +213,8 @@ RESTful Api(JAX-RS):
 	- U can also implement the logic in ParamConverter directly inside ParamConverterProvider so that u will
 		have only one file for converters.
 
+***Spring Boot***
+====================
 - How to generate web.xml files:
 	1. Right click on ur project folder
 	2. Click Java EE tools
@@ -233,6 +236,17 @@ RESTful Api(JAX-RS):
 	2. run as maven install
 	3. Refresh ur project
 	4. If no errors, .war file should be in target folder
+
+- to tell springboot that a value is a variable in the url use the annotation:
+	@PathVariable like @PathParam in jersey
+
+- To make an object or variable singleton i.e only a single copy can persist, so that it can be retain by 
+	the server temporarily declare it as STATIC
+- spring doc for database connectivity : https://spring.io/guides/gs/accessing-data-mysql/
+
+- if u don't have ssl functionality and want to avoid the warnings then in ur application.properties file:
+	spring.datasource.url=jdbc:mysql://localhost:3306/blog?useSSL=false
+
 		
   
 
