@@ -247,6 +247,10 @@ Spring MVC:
 - if u don't have ssl functionality and want to avoid the warnings then in ur application.properties file:
 	spring.datasource.url=jdbc:mysql://localhost:3306/blog?useSSL=false
 
+- Easiest way to select port for a spring boot app:
+	On ur application.propetries:
+		server.port = 8081
+
 
 		
   
