@@ -1,5 +1,6 @@
 package com.kadum.model;
 
+/* Structure of the model */
 public class Device {
     String name;
     String type;

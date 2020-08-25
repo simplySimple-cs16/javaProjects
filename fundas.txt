@@ -257,6 +257,9 @@ Spring MVC:
 	3. add the result in a ModelAndView object
 	4. Display the model and view object on a jsp file.
 
+- How to redirect to a using ModelAndView:
+	 return new ModelAndView("redirect: /error");
+
 
 		
   
