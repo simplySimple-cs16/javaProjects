@@ -259,6 +259,10 @@ Spring MVC:
 
 - How to redirect to a using ModelAndView:
 	 return new ModelAndView("redirect: /error");
+	 
+- How to suppress spring boot default error:
+   In ur application.properties:
+   	server.error.whitelabel.enabled=false
 
 
 		
