@@ -251,6 +251,12 @@ Spring MVC:
 	On ur application.propetries:
 		server.port = 8081
 
+- how to communicate between microservices:
+	1. Create a rest template
+	2. Store the result from another microcservice rest api in rest template
+	3. add the result in a ModelAndView object
+	4. Display the model and view object on a jsp file.
+
 
 		
   
