@@ -266,6 +266,14 @@ Spring MVC:
    	
 - To mark an application as an eureka server:
 	@EnableEurekaServer
+	
+- To prevent eureka server from registering itself, on application.properties:
+	eureka.client.register-with-eureka=false
+	eureka.client.fetch-registry=false
+	
+- How to @LoadBalanced when u have 2 instances of the same application:
+	1. Add the eureka client maven dependency in ur pom.xml
+	2. Add the annotation to the rest template class because it is the consumer.
 
 
 
