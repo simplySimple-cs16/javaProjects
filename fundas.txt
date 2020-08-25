@@ -263,6 +263,18 @@ Spring MVC:
 - How to suppress spring boot default error:
    In ur application.properties:
    	server.error.whitelabel.enabled=false
+   	
+- To mark an application as an eureka server:
+	@EnableEurekaServer
+
+
+
+
+
+
+
+
+
 
 
 		
