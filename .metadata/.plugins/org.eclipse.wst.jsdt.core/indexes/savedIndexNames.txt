@@ -1,8 +1,1 @@
 INDEX VERSION 1.4+/Users/kadumperme/javaWeb/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-2441654832.index
-1546687273.index
-1839267135.index
-3675634981.index
-2014726553.index
-762003416.index
-2445158415.index
