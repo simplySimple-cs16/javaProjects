@@ -274,6 +274,21 @@ Spring MVC:
 - How to @LoadBalanced when u have 2 instances of the same application:
 	1. Add the eureka client maven dependency in ur pom.xml
 	2. Add the annotation to the rest template class because it is the consumer.
+	
+***Java***
+===========
+
+- Static variables, methods or classes can be accessed without object.
+- Nested interface are by default static, so they can be accessed without creating an instance of outer
+  class or outer interface.
+- Similarly a nested class defined under an interface is static
+
+
+***JUnit***
+=============
+-
+
+
 
 
 
