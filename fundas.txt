@@ -283,11 +283,23 @@ Spring MVC:
   class or outer interface.
 - Similarly a nested class defined under an interface is static
 
+- Factory method
+  The method that returns the instance of a class is known as factory method.
+- In java, garbage means unreferenced objects.
+- There is only one instance of java.lang.Runtime class is available for one java application.
+  The Runtime.getRuntime() method returns the singleton instance of Runtime class.
+- Static Synchronization
+  If you make any static method as synchronized, the lock will be on the class not on object.
+
+
+
 
 ***JUnit***
 =============
--
-
+- Junit4 --> Junit5
+	- @Before() -> @BeforeEach
+	- @RunWith(MockitoJUnitRunner.class) -> @ExtendWith(MockitoExtension.class)
+ 
 
 
 
